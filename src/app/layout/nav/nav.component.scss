@@ -1,0 +1,27 @@
+nav {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+}
+
+/* Lista horizontal */
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: right; /* o space-between o flex-end */
+    gap: 2rem;
+}
+
+/* Enlaces */
+.nav-list a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+/* Hover */
+.nav-list a:hover {
+    color: #f0a500;
+    border-bottom: 2px solid #f0a500;
+}

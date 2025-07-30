@@ -1,17 +1,13 @@
-import { Component, NgModule } from '@angular/core';
-import path from 'path';
-import { Home } from '../home/home';
-import { Router } from '@angular/router';
-import { NgModel } from '@angular/forms';
+import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Producto } from '../../shared/interface/product';
+import { Producto } from '../../shared/interface/product.interface';
 
 
 @Component({
   selector: 'app-inventario',
   imports: [CommonModule],
-  templateUrl: './inventario.html',
-  styleUrl: './inventario.css'
+  templateUrl: './inventario.component.html',
+  styleUrl: './inventario.component.scss'
 })
 export class Inventario {
 

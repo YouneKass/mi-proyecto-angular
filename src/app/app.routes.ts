@@ -1,10 +1,7 @@
 import { Routes } from '@angular/router';
-import { Home } from './pages/home/home';
-import { Extra } from './pages/extra/extra';
-import { Inventario } from './pages/inventario/inventario';
+import { layoutRoutes } from './layout/layout.routes';
 
 
 export const routes: Routes = [
-    {path: '', component: Home},
-    {path: 'inventario', component: Inventario},
-];
+  ...layoutRoutes,
+]
