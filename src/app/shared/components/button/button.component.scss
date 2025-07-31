@@ -1,4 +1,4 @@
-button{
+.custom-button {
     margin: 10px;
     width: 200px;
     height: 50px;
@@ -6,6 +6,12 @@ button{
     background: #FEA405;
     cursor: pointer;
     border-radius: 20px;
+
+  &:hover {
+    background-color: #DBE4C9; // Más oscuro al pasar el mouse
+  }
+
+  &:active {
+    transform: scale(0.98);
+  }
 }
-
-

@@ -1,2 +1,7 @@
-<button (click)="guardarRol('Admin')">Entrar como Admin</button>
-<button (click)="guardarRol('Vendedor')">Entrar como Vendedor</button>
+<h1>Bienvenidos a mi primer proyecto Angular</h1>
+
+<app-button (devolverRol)="funcionGuardarRol($event)" [rolName]="'Admin'" ></app-button>
+<app-button (devolverRol)="funcionGuardarRol($event)" [rolName]="'Vendedor'"></app-button>
+
+<!-- <button (click)="guardarRol('Admin')">Entrar como Admin</button>
+<button (click)="guardarRol('Vendedor')">Entrar como Vendedor</button> -->
